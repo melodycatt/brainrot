@@ -1,0 +1,53 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+#bgVid {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+
+#main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+#content {
+    background-color: white;
+    border-radius: 100px;
+    width: 50%;
+    height: 40%;
+    opacity: 0.9;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+}
+
+#familyguy {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    height: 576px;
+}
+
+#subwaysurfers {
+    object-fit: cover;
+    width: 500px;
+    height: 889px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
